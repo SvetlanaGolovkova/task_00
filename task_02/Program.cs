@@ -11,8 +11,8 @@ Console.WriteLine("Введите число num2: ");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 > num2 )
-{Console.WriteLine($"первое число больше второго");
+{Console.WriteLine($" max = {num1}");
 }
 else if (num2 > num1)
-{Console.WriteLine($"второе число больше первого");
+{Console.WriteLine($" max = {num2}");
 }
